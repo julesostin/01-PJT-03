@@ -1,4 +1,5 @@
 import sys
+from this import d
 
 sys.stdin = open("_직사각형길이찾기.txt")
 
@@ -15,7 +16,4 @@ T = int(input())
 
 for i in range(1, T+1):
     data = list(map(int, input().split()))
-
-# 이것도 맞는지도 모르겠고..사실 왜 T+1을 하는지도^^; 
-# 매번 SWEA풀때마다 테스트케이스에 +1하고 시작해서 쓰긴 헀는데..
-# 
+    if a==b==c : d
